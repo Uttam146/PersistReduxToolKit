@@ -12,7 +12,8 @@ function App() {
       <BrowserRouter>
       <DashBoard />
         <Routes>
-          <Route path='/product' element={<Product />} />
+          <Route  path='/' element={<Product />} />
+          <Route  path='/product' element={<Product />} />
           <Route path='/cart' element={<Cart />} />
         </Routes>
       </BrowserRouter>
